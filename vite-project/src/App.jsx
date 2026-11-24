@@ -166,13 +166,13 @@ function App() {
       </section>
 
       {/* ADD TO CART */}
-      
+
       <section className="h-190">
         <div className="flex justify-start px-14 py-5">
           <a href="">
             <img src={images["./assets/Frame 9.png"]} alt="" />
           </a>
-        </div >
+        </div>
         <div className="flex gap-5 justify-start px-14">
           <div className="flex flex-col gap-4">
             <a href="">
@@ -189,10 +189,19 @@ function App() {
             <img src={images["./assets/image 1.png"]} alt="" />
           </div>
           <div className="flex flex-col gap-5">
-            <h1 className="uppercase font-black text-4xl">One Life Graphic T-shirt</h1>
-            
-            <a href=""><img src={images["./assets/Frame 35.png"]} alt="" /></a>
-            <h1 className="flex items-center gap-4">$260 <span className="line-through">$300</span> <span className="text-red-700 rounded-full bg-red-100 py-1 px-1.5">-40%</span></h1>
+            <h1 className="uppercase font-black text-4xl">
+              One Life Graphic T-shirt
+            </h1>
+
+            <a href="">
+              <img src={images["./assets/Frame 35.png"]} alt="" />
+            </a>
+            <h1 className="flex items-center gap-4">
+              $260 <span className="line-through">$300</span>{" "}
+              <span className="text-red-700 rounded-full bg-red-100 py-1 px-1.5">
+                -40%
+              </span>
+            </h1>
 
             <p>
               This graphic t-shirt which is perfect for any occasion. Crafted
@@ -201,7 +210,9 @@ function App() {
             </p>
             <hr className="bg-[#000000]" />
             <h1>Select Colors</h1>
-             <a href=""><img src={images["./assets/Frame 77.png"]} alt="" /></a>
+            <a href="">
+              <img src={images["./assets/Frame 77.png"]} alt="" />
+            </a>
             <hr className="bg-[#000000]" />
             <h1>Choose Size</h1>
             <div className="flex gap-4 [&_a]:px-5 [&_a]:py-1.5 [&_a]:rounded-full [&_a]:bg-[#F0EEED]">
@@ -211,7 +222,7 @@ function App() {
               <a href="">
                 <button>Medium</button>
               </a>
-              <a href="" className="!bg-[#000000] text-white" >
+              <a href="" className="!bg-[#000000] text-white">
                 <button>Large</button>
               </a>
               <a href="">
@@ -220,22 +231,21 @@ function App() {
             </div>
 
             <hr className="bg-[#000000]" />
-          <div className="flex gap-5">
-
-            <span className="bg-[#F0EEED] rounded-full py-1 px-14 flex justify-center items-center">
-              - 1 +
-            </span>
-              <a href="" className="bg-[#000000] rounded-full py-1.5 px-29 text-[#FFFFFF]" >
+            <div className="flex gap-5">
+              <span className="bg-[#F0EEED] rounded-full py-1 px-14 flex justify-center items-center">
+                - 1 +
+              </span>
+              <a
+                href=""
+                className="bg-[#000000] rounded-full py-1.5 px-29 text-[#FFFFFF]"
+              >
                 <button>Add to Cart</button>
               </a>
+            </div>
           </div>
-          </div>
-
         </div>
       </section>
     </>
   );
 }
-
-
 export default App;
